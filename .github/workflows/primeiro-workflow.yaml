@@ -3,11 +3,11 @@ name: Devops Workflow
 on:
   push:
     branches:
-      -main
+      - main
 
 jobs:
   build:
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
 
 
     steps:
